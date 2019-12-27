@@ -86,7 +86,7 @@ if [[ -e /etc/openvpn/server/server.conf ]]; then
 	clear
 		echo "Looks like OpenVPN is already installed."
 		echo
-		echo "What do you want to do?"
+		echo "What do you want to do? | T.me/DexterLX"
 		echo "   1) Add a new user"
 		echo "   2) Revoke an existing user"
 		echo "   3) Remove OpenVPN"
@@ -206,7 +206,7 @@ if [[ -e /etc/openvpn/server/server.conf ]]; then
 	done
 else
 	clear
-	echo "Welcome to this OpenVPN "road warrior" installer!"
+	echo "Welcome to this OpenVPN "road warrior" installer! | T.me/DexterLX"
 	echo
 	echo "I need to ask you a few questions before starting setup."
 	echo "You can use the default options and just press enter if you are ok with them."
