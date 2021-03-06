@@ -311,7 +311,7 @@ server 10.8.0.0 255.255.255.0" > /etc/openvpn/server/server.conf
 		;;
 		6)
 			echo 'push "dhcp-option DNS 94.140.14.14"' >> /etc/openvpn/server/server.conf
-			echo 'push "dhcp-option DNS 94.140.14.15"' >> /etc/openvpn/server/server.conf
+			echo 'push "dhcp-option DNS 94.140.15.15"' >> /etc/openvpn/server/server.conf
 		;;
 	esac
 	echo "keepalive 10 120
@@ -320,7 +320,6 @@ user nobody
 group $group_name
 persist-key
 persist-tun
-status openvpn-status.log
 verb 3
 crl-verify crl.pem" >> /etc/openvpn/server/server.conf
 	if [[ "$protocol" = "udp" ]]; then
